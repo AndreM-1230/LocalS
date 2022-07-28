@@ -1,0 +1,110 @@
+label {
+    /* Other styling.. */
+    text-align: right;
+    clear: both;
+    float:left;
+}
+.disabled {
+  pointer-events: none;
+  opacity: 0.3;
+}
+.onedigit-medium{
+    width: 34px !important;
+}
+.twodigit-medium{
+    width: 45px !important;
+}
+.threedigit-medium{
+    width: 50px !important;
+}
+.fourdigit-medium{
+    width: 57px !important;
+}
+.fivedigit-medium{
+    width: 67px !important;
+}
+.sixdigit-medium{
+    width: 75px !important;
+}
+.sevendigit-medium{
+    width: 81px !important;
+}
+.eightdigit-medium{
+    width: 88px !important;
+}
+.onedigit{
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    width: 26px !important;
+    border-right-width: 1px !important;
+    text-align: center !important;
+}
+.twodigit{
+    width: 37px !important;
+}
+.threedigit{
+    width: 43px !important;
+}
+.fivedigit{
+    width: 57px !important;
+}
+.sixdigit{
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 52px !important;
+}
+.eightdigit{
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+    width: 182px !important;
+}
+.width60{
+    width: 60px !important;
+}
+.width70{
+    width: 70px !important;
+}
+.width100{
+    width: 100px !important;
+}
+.width115{
+    width: 115px !important;
+}
+.width150{
+    width: 150px !important;
+}
+.width160{
+    width: 160px !important;
+}
+.width390{
+    width: 390px !important;
+}
+.container-limits{
+    padding-left: 0;
+    padding-right: 0;
+    width: 1140px;
+}
+.level2{
+    margin-top: 15px !important;
+}
+.biggroup{
+    text-align: center;
+    height: 58px !important;
+    font-size: 30px !important;
+}
+.pad-hor-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.inline {
+    display: inline-block;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.bottom15 {
+    margin-bottom:15px;
+}

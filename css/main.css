@@ -1,0 +1,352 @@
+/* Изменения основных свойств */
+
+.page-header {
+    margin-top: 0;
+    padding: 0;
+}
+.progress {
+    margin-bottom: 0;
+}
+.progress-bar-ready {
+    background-color: #FFCC33;
+}
+.label-ready {
+    background-color: #FFCC33;
+}
+
+.progress-bar-default {
+    background-color: #eee;
+}
+.progress-striped .progress-bar-default {
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+.table-plan-department tbody tr td{
+    padding: 0;
+}
+.progress-plan-department {
+    height: 30px;
+}
+/* Изменения основных свойств
+end */
+.product .product {
+    display: none;
+}
+.distrib_info {
+    display: none;
+}
+.temp {
+    color: red;
+    background-color: red;
+}
+.btn-width140 {
+    width: 120px;
+    margin: 4px 2px;
+}
+/* Состав изделий */
+.tree-cols,.tree-body {
+    padding: 0;
+    margin: 0;
+}
+.tree-cols2 {
+    padding-right: 0;
+    padding-left: 5px;
+}
+.tree-panel {
+    padding: 5px 1px 5px 5px;
+    margin: 10px 1px 0px 30px;
+}
+.tree-progress {
+    margin-top: 1px;
+}
+.btn-tree {
+    margin-right: 5px;
+}
+#tree-list > .product > .tree-panel {
+    margin-left: 0;
+}
+/* Состав изделий
+end */
+
+/* Таблицы нарядов
+*/
+.table-time td {
+    padding: 0 3px;
+}
+.table-money td {
+    padding: 1px 3px 0;
+}
+.td_oper {
+    font-weight: bold;
+}
+.change-sht-cancel {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+/* Таблицы нарядов
+end
+*/
+.solo-table-sort-asc > .solo-column-arrow
+{
+    position: relative;
+    top: 10px;
+    margin-left: 5px;
+    border-color: black transparent;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    height: 0;
+    width: 0;
+}
+.solo-table-sort-desc > .solo-column-arrow
+{
+    position: relative;
+    top: -10px;
+    margin-left: 5px;
+    border-color: black transparent;
+    border-style: solid;
+    border-width: 0 5px 5px 5px;
+    height: 0;
+    width: 0;
+}
+
+.solo-table-column-cursor
+{
+    cursor: pointer;
+}
+/*
+Стили для справочного запроса
+*/
+#sprav_ul{float:left;
+
+    list-style-type:none;
+}
+#sprav_ul li{
+    margin-bottom:1px;
+}
+.clr{
+    clear:both;
+    margin-bottom:10px;
+}
+
+.ch_type_ul{
+    list-style-type:none;
+    padding-left:0;
+    padding-bottom:20px;
+}
+/*
+Стили для формы ввода нового рабочего
+*/
+#uchastokdiv{
+    display:none;
+}
+#brigada_inputdiv{
+    display:none;
+}
+#brigadadiv{
+    display:none;
+
+}
+/*
+Стили для таблиц ,относящиеся к справочному запросу
+*/
+td{
+    vertical-align:middle !important;
+}
+
+.nomen_komp{
+    margin-top:20px;
+    color: #565656;
+    box-sizing:border-box;
+    max-width:95% !important;
+    text-align:center;
+    border-collapse: collapse;
+}
+.nomen_komp  td{
+    color: #565656 !important;
+    vertical-align:top !important;
+}
+.nomen_komp>thead>tr>th{
+    text-align:center;
+    font-size:13px;
+    border-bottom:none !important;
+}
+
+.nome_priblist_toggle table{
+    max-width:98%;
+    display:none;
+
+}
+.nome_priblist_toggle table tr th{
+    text-align:center;
+}
+.nome_priblist_toggle p{
+    cursor:pointer;
+}
+/*
+*Стили для кнопок меню справочного запроса
+*/
+.sprav_zapros_menu, {
+
+    padding:20px 0 40px 0;
+
+}
+.pokupn_menu{
+    padding:10px 0 15px 0;
+}
+.sprav_zapros_menu a, .pokupn_menu a{
+    display:inline-block;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+.pokupn_menu button{
+    display:inline-block;
+    margin-right:5px;
+    margin-bottom:10px;
+}
+.sprav_zapros_menu input{
+    display:inline-block;
+    margin-right:10px;
+    margin-bottom:10px;
+
+}
+.excel{
+    margin-top:30px;
+    margin-bottom:20px;
+    margin-right:15px;
+}
+/*
+*Стили для таблицы входимости
+*/
+.reentran{
+    text-align:center;
+}
+.reentran>thead>tr>th{
+    border-bottom:none !important;
+    text-align:center;
+}
+.details_child ul{
+    padding-left:10px;
+    list-style-type:none;
+    /*padding-bottom:10px;*/
+
+}
+.bottom_marg{
+    padding-bottom:20px;
+}
+
+.mrg20{
+    margin:20px 0;
+}
+.mrg30{
+    margin:30px 0;
+}
+.btn-xls{
+    padding:2px 1px;
+    padding-right:10px;
+}
+a.btn-xls img{
+    margin-right:10px;
+}
+.dropdown-xls{
+    padding:4px 12px;
+    padding-bottom:12px;
+}
+.request_sprav{
+    margin-bottom:15px;
+
+}
+.red-sp{
+    color:#FF0F0F;
+}
+.green-sp{
+    color:#0BB800;
+}
+.fix-width{
+    min-width:65px;
+}
+ul.dropdown-menu input{
+    margin-left:5px;
+    margin-right:5px;
+    padding:1px 2px;
+    font-size:12px;
+    display:inline-block;
+    width:70%;
+    float:left;
+}
+table.min_font>tbody>tr>th{
+    text-align:center;
+    font-size:12px !important;
+}
+a.nomen_comment{
+    display:inline-block ;
+    margin:3px 0 0 7px;
+}
+a.nomen_comment span{
+    color:#696969;
+}
+.width100{
+    width:100%;
+}
+tr.hid{
+    display:none;
+}
+table.wid-90{
+    margin:0 auto;
+    width:90%;
+
+}
+.purchased_wrapp{
+
+    position:relative;
+    padding-top:15px;
+}
+.purchased_status{
+    width:1085px;
+    position:fixed;
+    top:0;
+    display:none;
+    padding:5px 10px;
+    background:#E6E8EA;
+
+
+}
+.purchased_status span{
+    font-size:13px;
+    float:left;
+    padding-top:5px;
+
+}
+.purchased_status form{
+
+    float:right;
+
+}
+.purchased_status form input[type="radio"]{
+    margin-right:5px;
+}
+.purchased_status form input[type="text"]{
+    width:80px;
+    color:#565656;
+    padding:0px 2px;
+    font-size:12px;
+}
+.div-gray{
+    display:inline-block;
+    padding:3px 5px;
+
+    margin-right:3px !important;
+}
+.purchased_wrapp .btn-xs{
+    min-width:72px;
+
+}
+.hid_recip{
+    display:none !important;
+
+}
+.wd_90{
+    max-width:90%;
+    margin:10px auto;
+  }
