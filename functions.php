@@ -261,7 +261,7 @@ function upload_files(){
                         enctype='multipart/form-data'>
                     </form>
             <div class= 'text-center bg-light border border-dark rounded'>
-                    <input type='file' name='uploadedFile' form='upload_files' class='btn btn-default'/>
+                    <input type='file' name='uploadedFile' form='upload_files' accept='.gif,.jpg, .gif, .png, .zip, .txt, .xls, .doc,.pdf, .docx, .jpeg, .rar' class='btn btn-default'/>
                     <input class='btn btn-success' type='submit' form='upload_files' name='uploadBtn' value='Загрузить'/>
             </div>";
     return $return;
