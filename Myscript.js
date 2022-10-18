@@ -89,8 +89,7 @@ function waitForMsg(){
         error: function(XMLHttpRequest, textStatus, errorThrown){
             addmsg("error", textStatus + " (" + errorThrown + ")");
             setTimeout(
-                waitForMsg, /* Try again after.. */
-                15000); /* milliseconds (15seconds) */
+                waitForMsg, /* Try again after.. */4000); /* milliseconds (4seconds) */
         }
     });
 };

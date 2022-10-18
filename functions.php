@@ -170,7 +170,7 @@ function showheader(){
             </ul>
             <ul class='nav nav-tabs-right me-auto mb-2 mb-lg-0'>
                 <li class='nav-item'>
-                    <input class='bg-dark text-white fs-4' placeholder='Disabled input' id='timetext' readonly disabled type='text' style = 'visibility: hidden'/>
+                    <input class='bg-dark text-white fs-4' placeholder='Disabled input' id='timetext' readonly disabled type='text' style = 'visibility: hidden;'/>
                 </li>
             </ul>
         </div>
@@ -183,7 +183,7 @@ function showfooter(){
     $return ='';
     $return .= "<footer class='text-center text-white fixed-bottom bg-dark'>
         <div class='text-center p-3' style='background-color: rgba(0, 0, 0, 0.2);'>
-            <a class='nav-link fs-6 text-white' href='https://github.com/merkulov-1230'>© 2022: Github</a>
+            <a class='nav-link fs-6 text-white' href='https://github.com/AndreM-1230/LocalS'>© 2022: Github</a>
         </div>
     </footer>";
     return $return;
